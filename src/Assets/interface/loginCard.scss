@@ -1,0 +1,16 @@
+.container-on-container {
+  width: 300%;
+  height: 70vh;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.input-wrapper {
+  width: 30%;
+}
